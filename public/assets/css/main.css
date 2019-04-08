@@ -3250,6 +3250,10 @@
 
 /* Header */
 
+	body {
+		padding-top: 48px;
+	}
+
 	#page-wrapper {
 		padding-top: 3.5em;
 	}
@@ -3696,7 +3700,20 @@
 		/* Header */
 
 			#header {
-				display: none;
+				/*display: none;*/
+				height: auto;
+			}
+			#header h1 {
+				position: relative;
+				text-align: center;
+				left: auto;
+			}
+
+			#header nav {
+				position: relative;
+				right: auto;
+				text-align: center;
+				top: auto;
 			}
 
 		/* Banner */
@@ -4001,4 +4018,8 @@
 						padding: 0;
 					}
 
+	}
+
+	body.landing {
+		padding-top: 0px;
 	}
