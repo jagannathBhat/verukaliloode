@@ -3700,7 +3700,7 @@
 		/* Header */
 
 			#header {
-				/*display: none;*/
+				display: none;
 				height: auto;
 			}
 			#header h1 {
