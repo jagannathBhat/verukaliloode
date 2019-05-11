@@ -4016,3 +4016,12 @@
 	body.landing {
 		padding-top: 0px;
 	}
+
+@font-face {
+	font-family: 'Sabari';
+	src: local('../fonts/sabari.ttf')
+}
+
+.mal {
+	font-family: 'Sabari';
+}
