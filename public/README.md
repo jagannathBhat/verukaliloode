@@ -1,2 +1,0 @@
-# verukaliloode
-Abhimanyu's Blog
